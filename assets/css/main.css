@@ -1224,9 +1224,9 @@
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 88px;
+			height: 88px;
+			line-height: 88px;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
@@ -1592,3 +1592,22 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+
+/* NEW CHANGES */
+
+/*
+.rounded {
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background:	url("../../images/gingko-leaf.png") center no-repeat;
+    background-size:cover;
+}
+*/
