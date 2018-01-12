@@ -1612,8 +1612,9 @@
 }
 */
 
-#wrapper .fa {
-	float: left;
+#wrapper .leftarrow {
+	margin-right: 70rem;
+  vertical-align: middle;
 }
 
 
