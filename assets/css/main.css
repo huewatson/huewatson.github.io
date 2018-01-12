@@ -132,13 +132,14 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		<!-- border-bottom: dotted 1px rgba(255, 255, 255, 0.5);-->
+		border-bottom: none;
 		text-decoration: none;
 		color: inherit;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			color: rgba(255, 255, 255, 0.5);
 		}
 
 	strong, b {
@@ -1137,6 +1138,7 @@
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
+
 	}
 
 		#wrapper:before {
@@ -1613,7 +1615,9 @@
 */
 
 #wrapper .leftarrow {
-	margin-right: 70rem;
+	position: fixed;
+	margin-left: 25px;
+	width: 100%;
 }
 
 
@@ -1631,6 +1635,7 @@
 	width: 300px;
 	margin: auto;
 }
+
 
 #content .prototype {
 	border-style: solid;
@@ -1654,13 +1659,21 @@
 
 
 .float-right {
-float: right;
-width: 65%;
-padding-left: 3rem;
-padding-bottom: 2rem;
+	float: right;
+	width: 65%;
+	padding-left: 3rem;
+	padding-bottom: 2rem;
 }
 
 
 #content .video {
+	margin-right: 45px;
+	margin-left: 45px;
+
+}
+
+#content .research {
+	margin-right: 45px;
+	margin-left: 45px;
 
 }
