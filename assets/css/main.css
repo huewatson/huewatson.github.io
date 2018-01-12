@@ -1612,9 +1612,16 @@
 }
 */
 
+#wrapper .leftarrow {
+	float: left;
+}
+
+
 #content {
 	text-align: center;
 }
+
+
 
 #content p {
 	text-align: left;
