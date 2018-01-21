@@ -1626,10 +1626,11 @@
 }
 
 
-
+/*
 #content p {
 	text-align: left;
 }
+*/
 
 #content hr {
 	width: 300px;
@@ -1665,6 +1666,21 @@
 	padding-bottom: 2rem;
 }
 
+.float-left {
+	float: left;
+	width: 65%;
+	padding-right: 3rem;
+	padding-bottom: 2rem;
+}
+
+.float-center {
+	float: center;
+	width: 65%;
+	padding-right: 3rem;
+	padding-left: 3rem
+	padding-bottom: 2rem;
+}
+
 
 #content .video {
 	margin-right: 45px;
@@ -1676,4 +1692,100 @@
 	margin-right: 45px;
 	margin-left: 45px;
 
+}
+
+#content .research p{
+	text-align: left;
+
+}
+
+#content .ideation {
+	margin-right: 45px;
+	margin-left: 45px;
+
+}
+
+#content .ideation p{
+	text-align: left;
+
+}
+
+#content .design {
+	margin-right: 45px;
+	margin-left: 45px;
+
+}
+
+#content .design p{
+	text-align: left;
+
+}
+
+#content .prototyping {
+	margin-right: 45px;
+	margin-left: 45px;
+
+}
+
+p.protopara {
+	text-align: left;
+}
+
+
+#content .testing {
+	margin-right: 45px;
+	margin-left: 45px;
+
+}
+
+#content .testing p{
+	text-align: left;
+
+}
+
+#content .testing h3,h4 {
+	text-align: left;
+}
+
+#content .iteration {
+	margin-right: 45px;
+	margin-left: 45px;
+
+}
+
+#content .iteration p{
+	text-align: left;
+
+}
+
+.infograin-photos {
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+  padding: 8px 16px 8px 16px;
+	text-align: center;
+
+}
+
+.pure-img.brainstorm {
+	border: 8px solid rgba(255, 255, 255, 0);
+	max-width: 100%;
+}
+
+.pure-img.takeaway {
+	border: 8px solid rgba(255, 255, 255, 0);
+	max-width: 70%;
+	float: right;
+
+}
+
+.pure-img.photos {
+  border: 8px solid rgba(255, 255, 255, 0);
+}
+
+.pure-img.features {
+	max-width: 15%;
+}
+
+div.infograin-photos > div > div > p {
+	text-align: center;
+	font-family: "Source Sans Pro", sans-serif;
 }
