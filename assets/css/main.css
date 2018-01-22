@@ -1727,9 +1727,11 @@
 
 }
 
-p.protopara {
+.protopara {
 	text-align: left;
 }
+
+
 
 
 #content .testing {
@@ -1790,7 +1792,8 @@ p.protopara {
 }
 
 .pure-img.wffeedback{
-	max-width: 75%;
+	max-width: 100%;
+	border:2px solid rgba(255, 255, 255, 0);
 }
 
 div.infograin-photos > div > div > p {
