@@ -132,7 +132,7 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		<!-- border-bottom: dotted 1px rgba(255, 255, 255, 0.5);-->
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		border-bottom: none;
 		text-decoration: none;
 		color: inherit;
@@ -1785,7 +1785,22 @@ p.protopara {
 	max-width: 15%;
 }
 
+.pure-img.wireframe {
+	border: 8px solid rgba(255, 255, 255, 0);
+}
+
+.pure-img.wffeedback{
+	max-width: 75%;
+}
+
 div.infograin-photos > div > div > p {
 	text-align: center;
 	font-family: "Source Sans Pro", sans-serif;
+}
+
+
+#content .features {
+	margin-right: 45px;
+	margin-left: 45px;
+
 }
