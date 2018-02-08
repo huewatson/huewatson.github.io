@@ -1195,6 +1195,8 @@
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
 		max-width: 100%;
 		text-align: center;
+		margin-left: 25px;
+		margin-right: 25px;
 	}
 
 		#header > * {
@@ -1616,7 +1618,6 @@
 
 #wrapper .leftarrow {
 	position: fixed;
-	margin-left: 25px;
 	width: 100%;
 }
 
@@ -1632,14 +1633,10 @@
 
 #content {
 	text-align: center;
+	margin-left: 45px;
+	margin-right: 45px;
 }
 
-
-/*
-#content p {
-	text-align: left;
-}
-*/
 
 #content hr {
 	width: 300px;
@@ -1776,16 +1773,33 @@
 
 }
 
+
+
 .pure-img.brainstorm {
 	border: 8px solid rgba(255, 255, 255, 0);
 	max-width: 100%;
 }
 
-.pure-img.takeaway {
+.pure-img.findings {
 	border: 8px solid rgba(255, 255, 255, 0);
 	max-width: 70%;
-	float: right;
+	margin-left: auto;
+	margin-right: auto;
 
+}
+
+.findingsborder {
+	text-align: left;
+	border: 8px solid rgba(255, 255, 255, 0.5);
+}
+
+.findings {
+	text-align: left;
+	padding;: 8px;
+}
+
+.findingsheader {
+	text-align: center;
 }
 
 .pure-img.photos {
@@ -1805,14 +1819,10 @@
 	border:2px solid rgba(255, 255, 255, 0);
 }
 
-div.infograin-photos > div > div > p {
-	text-align: center;
-	font-family: "Source Sans Pro", sans-serif;
-}
 
 
-#content .features {
-	margin-right: 45px;
-	margin-left: 45px;
-
+html, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p,li,
+.pure-g [class *= "pure-u"] {
+		/* Set your content font stack here: */
+		font-family: "Source Sans Pro", sans-serif;
 }
