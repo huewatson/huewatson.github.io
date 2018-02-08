@@ -1738,6 +1738,10 @@
 
 }
 
+.findings {
+	max-width: 90%;
+}
+
 #content .reflection {
 	margin-right: 45px;
 	margin-left: 45px;
@@ -1784,9 +1788,14 @@
 
 }
 
-.findings {
-	margin-left: 45px;
-	margin-right: 45px;
+.brainstorm-photos {
+	padding: 8px 16px 8px 16px;
+	text-align: center;
+}
+
+.hifiborder {
+	border: 4px solid rgba(255, 255, 255, 0.5);
+	padding: 10px 10px 0px 10px;
 }
 
 .pure-img.brainstorm {
@@ -1825,6 +1834,21 @@
   border: 8px solid rgba(255, 255, 255, 0);
 }
 
+.pure-img.personas {
+	display: inline-block;
+	max-height: 350px;
+}
+
+.pure-img.empathy {
+	display: inline-block;
+	max-height: 270px;
+}
+
+.pure-img.storyboards {
+	display: inline-block;
+	max-height:280px;
+}
+
 .pure-img.features {
 	max-width: 15%;
 }
@@ -1838,6 +1862,16 @@
 	border:2px solid rgba(255, 255, 255, 0);
 }
 
+.pure-img.qr {
+	padding: 8px;
+  max-height:325px;
+	display: inline-block;
+}
+
+.pure-img.kiosk {
+	max-height: 200px;
+	display: inline-block;
+}
 
 
 html, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p,li,
