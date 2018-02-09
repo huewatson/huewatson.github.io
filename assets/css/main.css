@@ -1689,19 +1689,19 @@
 
 
 #content .video {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 
 }
 
 #content .features {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 
 #content .research {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 
 }
 
@@ -1711,8 +1711,8 @@
 }
 
 #content .ideation {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 
 }
 
@@ -1722,8 +1722,8 @@
 }
 
 #content .design {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 
 }
 
@@ -1733,8 +1733,8 @@
 }
 
 #content .prototyping {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 
 }
 
@@ -1743,8 +1743,8 @@
 }
 
 #content .reflection {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 
 .protopara {
@@ -1755,8 +1755,8 @@
 
 
 #content .testing {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 
 }
 
@@ -1770,8 +1770,8 @@
 }
 
 #content .iteration {
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-right: 25px;
+	margin-left: 25px;
 
 }
 
@@ -1794,7 +1794,6 @@
 }
 
 .hifiborder {
-	border: 4px solid rgba(255, 255, 255, 0.5);
 	padding: 10px 10px 0px 10px;
 }
 
@@ -1811,9 +1810,14 @@
 
 }
 
+p.phifi {
+	text-align: center;
+	margin: 0px;
+}
+
+
 .findingsborder {
 	text-align: left;
-	border: 4px solid rgba(255, 255, 255, 0.5);
 }
 
 .pfindings {
@@ -1874,8 +1878,9 @@
 }
 
 
+
 html, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p,li,
 .pure-g [class *= "pure-u"] {
 		/* Set your content font stack here: */
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Source Sans Pro", sans-serif !important;
 }
