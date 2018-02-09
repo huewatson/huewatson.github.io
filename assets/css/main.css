@@ -1683,6 +1683,10 @@
 	text-align: left;
 }
 
+#prototyping  h4{
+	text-align: center;
+}
+
 
 .findings {
 	max-width: 90%;
@@ -1696,6 +1700,7 @@
 
 .pfindings {
 	padding: 0px 20px 0px 20px;
+	text-align: center;
 }
 
 .hfindings {
@@ -1768,15 +1773,7 @@ p.phifi {
 
 .pure-img.features {
 	max-width: 15%;
-}
-
-.pure-img.wireframe {
-	border: 8px solid rgba(255, 255, 255, 0);
-}
-
-.pure-img.wffeedback{
-	max-width: 100%;
-	border:2px solid rgba(255, 255, 255, 0);
+	display: inline-block;
 }
 
 .pure-img.qr {
@@ -1840,7 +1837,43 @@ nav.sidemenu ul li:hover {
 
 /**** ZIPFIT ****/
 
-.pure-g.zipfit-features {
-	margin-left: auto;
-	margin-right: auto;
+.zipfit-features {
+
+}
+
+.pure-img.journeymap {
+	max-width:90%;
+	padding: 10px;
+	display: inline-block;
+}
+
+.pure-img.mockups {
+	max-height:400px;
+}
+
+.feedback {
+	text-align: left;
+	padding: 15px;
+	border: 4px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.pfeedback {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+text-align: center;
+
+}
+
+.wireframe {
+	border: 8px solid rgba(255, 255, 255, 0);
+}
+
+.pure-img.wffeedback{
+	border:2px solid rgba(255, 255, 255, 0);
+}
+
+.task {
+	padding: 10px;
 }
