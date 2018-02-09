@@ -1824,7 +1824,6 @@ nav.sidemenu ul li {
     line-height: 35px;
     text-align: center;
     margin-top: 10px;
-    font-size: 14px;
 }
 
 nav.sidemenu ul li:hover {
@@ -1838,7 +1837,7 @@ nav.sidemenu ul li:hover {
 /**** ZIPFIT ****/
 
 .zipfit-features {
-
+	padding: 10px;
 }
 
 .pure-img.journeymap {
@@ -1849,13 +1848,15 @@ nav.sidemenu ul li:hover {
 
 .pure-img.mockups {
 	max-height:400px;
+	margin: auto;
 }
-
+.border {
+	border-radius: 25px;
+}
 .feedback {
 	text-align: left;
 	padding: 15px;
 	border: 4px solid rgba(255, 255, 255, 0.5);
-
 }
 
 .pfeedback {
