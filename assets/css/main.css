@@ -1810,34 +1810,25 @@ nav.sidemenu ul {
     vertical-align: middle;
 }
 
-nav.sidemenu ul li{
+nav.sidemenu ul li {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
     list-style: none;
-    /*background-color: #d3e4ff;*/
-		/*border: 1px solid #b085f5;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;*/
     margin-top: 10px;
-		border: 1px solid #b085f5;
 		height: 2.25rem;
 		line-height: 2.25rem;
 		text-align: center;
 		width: 2.25rem;
+		display: block;
 }
 
 nav.sidemenu ul li:hover {
-	/*	background-color: #b085f5;*/
-    /*background: none;*/
     cursor: pointer;
     box-sizing: border-box;
 		background-color: rgba(255, 255, 255, 0.075);
-
 }
 
 nav.sidemenu li a:active {
