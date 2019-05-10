@@ -1885,6 +1885,7 @@ text-align: center;
 	overflow: hidden;
 	padding-top: 56.25%;
 	position: relative;
+	height: 720px;
 }
 
 .iframe-container iframe {
