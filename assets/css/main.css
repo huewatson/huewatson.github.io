@@ -1621,7 +1621,7 @@
 #wrapper .leftarrow {
 	position: fixed;
 	width: 100%;
-
+	margin-left: 2.5rem;
 }
 
 #wrapper #scrollToTopButton {
