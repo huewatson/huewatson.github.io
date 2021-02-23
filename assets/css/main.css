@@ -1740,6 +1740,17 @@
   padding: 2.5rem;
 }
 
+.section-bg-full {
+	background-color: #3a485ab8;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+  padding: 2.5rem;
+	width: 100vw;
+	margin-left: -50vw;
+	left: 50%;
+	position: relative;
+}
+
 .grow {
 	transition: all .2s ease-in-out;
 }
@@ -1923,4 +1934,11 @@ text-align: center;
 	position: absolute;
 	top: 0;
 	width: 100%;
+}
+
+.projectContent {
+	 margin: 0 auto;
+	 padding: 0 2em;
+	 max-width: 800px;
+	 line-height: 1.6em;
 }
