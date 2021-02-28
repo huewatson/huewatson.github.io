@@ -1622,6 +1622,7 @@
 	position: fixed;
 	width: 100%;
 	margin-left: 2.5rem;
+	z-index: 999;
 }
 
 #wrapper #scrollToTopButton {
@@ -1740,15 +1741,11 @@
   padding: 2.5rem;
 }
 
-.section-bg-full {
+.project-section-row {
 	background-color: #3a485ab8;
 	margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
   padding: 2.5rem;
-	width: 100vw;
-	margin-left: -50vw;
-	left: 50%;
-	position: relative;
 }
 
 .grow {
@@ -1941,4 +1938,16 @@ text-align: center;
 	 padding: 0 2em;
 	 max-width: 800px;
 	 line-height: 1.6em;
+}
+
+.studyIcons {
+	height: 1.5rem;
+	width: 1.5rem;
+	vertical-align: middle;
+	margin-right: .25rem;
+}
+
+.studyText {
+	text-align: center;
+	vertical-align: middle;
 }
